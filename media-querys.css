@@ -1,415 +1,385 @@
+@media only screen and (max-width: 1860px) {
+  .slide {
+    width: 20rem;
+  }
 
-@media only screen and (max-width: 1860px){
-    .slide{
-        width: 20rem;
-    }
-    .projects-slides{
-        width: 80%;
-    }
+  .project-name {
+    font-size: 1.3rem;
+  }
+  .projects-slides {
+    width: 80%;
+  }
 
-    #leo-foto{
-        width: 20rem;
-    }
-    #apresentation-title{
-        font-size: 4rem;
-    }
+  #leo-foto {
+    width: 20rem;
+  }
+  #apresentation-title {
+    font-size: 4rem;
+  }
 }
 
+@media only screen and (max-width: 1720px) {
+  #leo-foto {
+    width: 20rem;
+  }
+  #apresentation-title {
+    font-size: 4rem;
+  }
 
-@media only screen and (max-width: 1720px){
-    #leo-foto{
-        width: 20rem;
-    }
-    #apresentation-title{
-        font-size: 4rem;
-    }
-
-    .project-name{
-        font-size: 1.5rem;
-    }
+  .project-name {
+    font-size: 1.5rem;
+  }
 }
 
+@media only screen and (max-width: 1442px) {
+  .slide {
+    width: 18rem;
+  }
 
+  .projects-slides {
+    padding: 0;
+  }
 
+  .project-name {
+    font-size: 1.25rem;
+  }
+  #leo-foto {
+    width: 20rem;
+  }
+  #apresentation-title {
+    font-size: 3rem;
+  }
 
-@media only screen and (max-width: 1442px){
-    .slide{
-        width: 18rem;
-    }
+  .footer-title {
+    font-size: 3rem;
+  }
 
-    .projects-slides{
-        padding: 0;
-       
-    }
-
-    .project-name{
-        font-size: 1.25rem;
-    }
-    #leo-foto{
-        width: 20rem;
-    }
-    #apresentation-title{
-        font-size: 3rem;
-    }
-
-    .footer-title{
-        font-size: 3rem;
-    }
-
-    #return-to-menu{
-        width: 40px;
-        padding: 0.55rem;
-
-    }
+  #return-to-menu {
+    width: 40px;
+    padding: 0.55rem;
+  }
 }
 
+@media only screen and (max-width: 1250px) {
+  .apresentation {
+    background: linear-gradient(rgba(0, 0, 0, 0.1), var(--color-background));
+    min-height: 100vh;
+    position: relative;
+  }
 
-@media only screen and (max-width: 1250px){
-    .apresentation{
-        background: linear-gradient(rgba(0,0,0,0.1), var(--color-background));
-        min-height: 100vh;
-        position: relative;
-     }
+  #apresentation-video {
+    object-fit: cover;
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    z-index: -10;
+  }
 
-     #apresentation-video{
-        object-fit: cover;
-        width: 100%;
-        height: 100vh;
-        position: absolute;
-        z-index: -10;
-    }
+  .apresentation-box {
+    margin: 0 2rem;
+    flex-direction: column;
+  }
 
-    .apresentation-box {
-        margin: 0 2rem;
-        flex-direction: column; 
-    }
+  .apresentation-left-content {
+    margin: auto;
+    text-align: center;
+    color: #ebebeb;
+    margin-top: 3rem;
+  }
 
-    .apresentation-left-content{
-        margin: auto;
-        text-align: center;
-        color: #ebebeb;
-        margin-top: 3rem;
-        
-    }
+  .apresentation-right-content {
+    margin: auto;
+    margin-top: 2rem;
+  }
 
-    .apresentation-right-content{
-        margin: auto;
-        margin-top: 2rem;
-    }
+  #leo-foto {
+    width: 15rem;
+  }
 
-    #leo-foto{
-        width: 15rem;
-    }
-    
-    #apresentation-title{
-        font-size: 4rem;
-    }
+  #apresentation-title {
+    font-size: 4rem;
+  }
 
-    
+  .about-me-section-container {
+    flex-direction: column;
+    width: 70%;
+  }
+  .about-me-left-side {
+    display: none;
+  }
 
-    .about-me-section-container{
-        flex-direction: column;
-        width: 70%;
-    }
-    .about-me-left-side{
-        display: none;
-    }
-    
-    .carrossel{
-        width: 70%;
-        margin-top: 5%;
-    }
+  .carrossel {
+    width: 70%;
+    margin-top: 5%;
+  }
 
-    .slide{
-        width: 90%;
-    }
-    .projects-slides{
-        padding: 0;
-        flex-direction: column;
-    }
+  .slide {
+    width: 90%;
+  }
+  .projects-slides {
+    padding: 0;
+    flex-direction: column;
+  }
 
-    .footer-title{
-        font-size: 3rem;
-    }
+  .footer-title {
+    font-size: 3rem;
+  }
 }
 
-@media only screen and (max-width: 998px){
-    #apresentation-title{
-        margin-top: 2rem;
-        font-size: 3rem;
-    }
+@media only screen and (max-width: 998px) {
+  #apresentation-title {
+    margin-top: 2rem;
+    font-size: 3rem;
+  }
 
-    .apresentation{
-        background: linear-gradient(rgba(0,0,0,0.1), var(--color-background));
-        min-height: 100vh;
-        position: relative;
-     }
-    
-    .apresentation-right-content{
-        margin: auto;
-        margin-top: 5rem;
+  .apresentation {
+    background: linear-gradient(rgba(0, 0, 0, 0.1), var(--color-background));
+    min-height: 100vh;
+    position: relative;
+  }
 
-    }
-    .apresentation-btns{
-        display: none;
-    }
+  .apresentation-right-content {
+    margin: auto;
+    margin-top: 5rem;
+  }
+  .apresentation-btns {
+    display: none;
+  }
 
-    .about-me-section-container{
-        flex-direction: column;
-        width: 80%;
-    }
+  .about-me-section-container {
+    flex-direction: column;
+    width: 80%;
+  }
 
-    .my-skills-box-content{
-        flex-direction: column;
-    }
+  .my-skills-box-content {
+    flex-direction: column;
+  }
 
-    .skills{
-        width: 100%;
-        margin: 0;
-    }
-    .front-end-technologies{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
+  .skills {
+    width: 100%;
+    margin: 0;
+  }
+  .front-end-technologies {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
 
-    .back-end{
-        width: 100%;
-    }
-    .footer-title{
-        font-size: 2.3rem;
-    }
-    .footer-icon{
-        width: 30px;
-    }
+  .back-end {
+    width: 100%;
+  }
+  .footer-title {
+    font-size: 2.3rem;
+  }
+  .footer-icon {
+    width: 30px;
+  }
 
-    .directs{
-        font-size: 0.8rem;
-        width: 70%;
-    }
+  .directs {
+    font-size: 0.8rem;
+    width: 70%;
+  }
 }
 
 @media (max-width: 750px) {
-    .technology-icons{
-        width: 48px;
-        margin: 5% 3%;
-    }
+  .technology-icons {
+    width: 48px;
+    margin: 5% 3%;
+  }
 }
 
+@media only screen and (max-width: 600px) {
+  .footer-box {
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer-title {
+    font-size: 2rem;
+    text-align: center;
+  }
+  .footer-icon {
+    width: 30px;
+  }
 
-@media only screen and (max-width: 600px){
-    .footer-box{
-        flex-direction: column;
-        text-align: center;
-    }
-    .footer-title{
-        font-size: 2rem;
-        text-align: center;
-    }
-    .footer-icon{
-        width: 30px;
-    }
-    
-    
-    #apresentation-title{
-        margin-top: 2rem;
-        font-size: 3rem;
+  #apresentation-title {
+    margin-top: 2rem;
+    font-size: 3rem;
+  }
 
-    }
-
-   #leo-foto{
+  #leo-foto {
     width: 15rem;
-    
-   }
+  }
 
-    .apresentation{
-        background: linear-gradient(rgba(0,0,0,0.1), var(--color-background));
-        min-height: 100vh;
-        position: relative;
-     }
+  .apresentation {
+    background: linear-gradient(rgba(0, 0, 0, 0.1), var(--color-background));
+    min-height: 100vh;
+    position: relative;
+  }
 
-     .apresentation-left-content{
-        text-shadow: 0 0 2rem black;
-     }
+  .apresentation-left-content {
+    text-shadow: 0 0 2rem black;
+  }
 
-    .apresentation-right-content{
-        
-        align-items: center;
-        margin: auto;
-        margin-top: 5rem;
-    }
-    .apresentation-btns{
-        display: none;
-    }
+  .apresentation-right-content {
+    align-items: center;
+    margin: auto;
+    margin-top: 5rem;
+  }
+  .apresentation-btns {
+    display: none;
+  }
 
-    .my-skills-box-content{
-        width: 80%;
-    }
-    
-    #portuguese-text{
-        font-size: 1rem;
-    }
+  .my-skills-box-content {
+    width: 80%;
+  }
 
-    #english-text{
-        font-size: 1rem;
-    }
-    .about-me-section-container{
-        flex-direction: column;
-        width: 80%;
-        
-    }
+  #portuguese-text {
+    font-size: 1rem;
+  }
 
-    .my-skills-box-content{
-        flex-direction: column;
-    }
+  #english-text {
+    font-size: 1rem;
+  }
+  .about-me-section-container {
+    flex-direction: column;
+    width: 80%;
+  }
 
-    .skills{
-        width: 100%;
-        margin: 0;
-    }
-    .front-end-technologies{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-    }
+  .my-skills-box-content {
+    flex-direction: column;
+  }
 
-    .back-end{
-        width: 100%;
-    }
+  .skills {
+    width: 100%;
+    margin: 0;
+  }
+  .front-end-technologies {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+  }
 
-    #return-to-menu{
-        border: none;
-        background: none;
-        margin-right: 0.25rem;
-       
-    }
+  .back-end {
+    width: 100%;
+  }
+
+  #return-to-menu {
+    border: none;
+    background: none;
+    margin-right: 0.25rem;
+  }
 }
 
-@media only screen and (max-width: 450px){
-    .section__title{
-        font-size: 1.5rem;
-    }
-    .project-name{
-        font-size: 1rem;
-    }
+@media only screen and (max-width: 450px) {
+  .section__title {
+    font-size: 1.5rem;
+  }
+  .project-name {
+    font-size: 1rem;
+  }
 
-    .footer-title{
-        font-size: 1.7rem;
-    }
+  .footer-title {
+    font-size: 1.7rem;
+  }
 
+  .technology-icons {
+    width: 30px;
+    margin: 5% 3%;
+  }
 
-    .technology-icons{
-        width: 30px;
-        margin: 5% 3%;
-    }
-     
-     .contact-me-icons{
-        width: 60%;
-     }
+  .contact-me-icons {
+    width: 60%;
+  }
 
-    #see-all-projects{
-        margin: auto;
-        margin-top: 2rem;
-    }
+  #see-all-projects {
+    margin: auto;
+    margin-top: 2rem;
+  }
 
-    .icons{
-        width: 14rem;
-    }
-    .apresentation-icons{
-        width: 40px;
-    }
+  .icons {
+    width: 14rem;
+  }
+  .apresentation-icons {
+    width: 40px;
+  }
 
-    .about-me{
-        margin-top: 2rem;
-    }
-    
+  .about-me {
+    margin-top: 2rem;
+  }
 
-   
-    #portuguese-text{
-        font-size: .8rem;
-    }
+  #portuguese-text {
+    font-size: 0.8rem;
+  }
 
-    #english-text{
-        font-size: .8rem;
-    }
+  #english-text {
+    font-size: 0.8rem;
+  }
 
-    .apresentation{
-        background: linear-gradient(rgba(0,0,0,0.1), var(--color-background));
-        margin: 0;
-        position: relative;
-        
-     }
+  .apresentation {
+    background: linear-gradient(rgba(0, 0, 0, 0.1), var(--color-background));
+    margin: 0;
+    position: relative;
+  }
 
-     .apresentation-left-content{
-        color: #ebebeb;
-        margin: auto;
-        margin-top: 8%;
-        
-       
-        
-    }
-    .apresentation-right-content{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin: auto;
-        margin-top: 10%;
-    }
-    body{
-        width: 100%;
-        margin: auto;
-        
-    }
+  .apresentation-left-content {
+    color: #ebebeb;
+    margin: auto;
+    margin-top: 8%;
+  }
+  .apresentation-right-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: auto;
+    margin-top: 10%;
+  }
+  body {
+    width: 100%;
+    margin: auto;
+  }
 
-    .section{
-        margin-top: 3rem;
-    }
+  .section {
+    margin-top: 3rem;
+  }
 
-    .contact-me{
-        margin-top: 0;
-    }
-    .section__title{
-        font-size: 2rem;
-    }
+  .contact-me {
+    margin-top: 0;
+  }
+  .section__title {
+    font-size: 2rem;
+  }
 }
 
+@media only screen and (max-width: 400px) {
+  .apresentation {
+    margin: auto;
+    width: 100%;
+  }
 
+  #apresentation-title {
+    font-size: 1.5rem;
+    text-align: center;
 
-@media only screen and (max-width: 400px){
+    margin: auto;
+  }
 
-    .apresentation{
-        margin: auto;
-        width: 100%;
-        
-    }
+  #apresentation-name {
+    font-size: 1rem;
+  }
 
-    #apresentation-title{
-        font-size: 1.5rem;
-        text-align: center;
-        
-        margin: auto;
-    }
+  .apresentation-left-content {
+    margin: 1rem auto;
+  }
 
-    #apresentation-name{
-        font-size: 1rem;
+  #leo-foto {
+    width: 200px;
+  }
 
-    }
+  .icons {
+    width: 170px;
+  }
 
-    .apresentation-left-content{
-        margin: 1rem auto ;
-    }
-
-    #leo-foto{
-        width: 200px;
-    }
-
-    .icons{
-        width: 170px;
-    }
-
-    .apresentation-icons{
-        width: 30px;
-    }
-
-   
+  .apresentation-icons {
+    width: 30px;
+  }
 }
