@@ -23,12 +23,15 @@ document.addEventListener('DOMContentLoaded', () => {
         const aboutMeSection = document.querySelector('.about-me');
         aboutMeSection.scrollIntoView({ behavior: 'smooth' });
     });
+
     // projects Btn logica
     const scrollToProjectsBtn = document.getElementById('projectsbtn');
     scrollToProjectsBtn.addEventListener('click', () => {
         const projectsSection = document.querySelector('.projects');
         projectsSection.scrollIntoView({ behavior: 'smooth' });
     });
+
+    
     // skills btn logica
     const scrollToMySkillsBtn = document.getElementById('my-skills');
     scrollToMySkillsBtn.addEventListener('click', () => {

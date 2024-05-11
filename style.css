@@ -248,13 +248,10 @@ body {
   text-align: left;
   position: relative;
   margin: 1rem;
-}
-
-.slide:hover {
-  transform: scale(1.2);
-  transition: 1.2s;
   cursor: pointer;
 }
+
+
 .project-photo {
   width: 100%;
   object-fit: cover;
@@ -469,7 +466,6 @@ hr {
 .back-end,
 .about-me-section-container,
 .carrossel,
-.slide,
 .projects-slides,
 #see-all-projects {
   visibility: hidden;
